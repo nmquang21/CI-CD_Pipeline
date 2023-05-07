@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('Clone'){
+        stage('Clone code'){
             steps{
                 git 'https://github.com/nmquang21/CI-CD_Pipeline.git'
             }
